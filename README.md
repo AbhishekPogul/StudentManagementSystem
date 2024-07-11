@@ -45,6 +45,19 @@ CREATE TABLE students (
     age INT
 );
 
+use dummy data:
+INSERT INTO students (id, name, email, age) VALUES
+(1, 'Alice Johnson', 'alice.johnson@example.com', 20),
+(2, 'Bob Smith', 'bob.smith@example.com', 22),
+(3, 'Charlie Brown', 'charlie.brown@example.com', 19),
+(4, 'Diana Prince', 'diana.prince@example.com', 21),
+(5, 'Edward Cullen', 'edward.cullen@example.com', 23),
+(6, 'Fiona Gallagher', 'fiona.gallagher@example.com', 20),
+(7, 'George Clark', 'george.clark@example.com', 22),
+(8, 'Hannah Adams', 'hannah.adams@example.com', 19),
+(9, 'Isaac Newton', 'isaac.newton@example.com', 21),
+(10, 'Jane Austen', 'jane.austen@example.com', 22),
+
 JDBC Driver
 
 Download the MySQL JDBC driver (mysql-connector-j-8.1.0.jar) and place it in the lib directory of your Tomcat installation.
